@@ -37,10 +37,12 @@
             // 
             // originalMatrixTextBox
             // 
-            this.originalMatrixTextBox.Location = new System.Drawing.Point(26, 27);
+            this.originalMatrixTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.originalMatrixTextBox.Location = new System.Drawing.Point(12, 27);
             this.originalMatrixTextBox.Multiline = true;
             this.originalMatrixTextBox.Name = "originalMatrixTextBox";
-            this.originalMatrixTextBox.Size = new System.Drawing.Size(283, 189);
+            this.originalMatrixTextBox.Size = new System.Drawing.Size(357, 189);
             this.originalMatrixTextBox.TabIndex = 0;
             // 
             // matrixInputLabel
@@ -64,10 +66,13 @@
             // 
             // inverseMatrixTextBox
             // 
-            this.inverseMatrixTextBox.Location = new System.Drawing.Point(26, 276);
+            this.inverseMatrixTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.inverseMatrixTextBox.Location = new System.Drawing.Point(12, 276);
             this.inverseMatrixTextBox.Multiline = true;
             this.inverseMatrixTextBox.Name = "inverseMatrixTextBox";
-            this.inverseMatrixTextBox.Size = new System.Drawing.Size(283, 184);
+            this.inverseMatrixTextBox.Size = new System.Drawing.Size(357, 184);
             this.inverseMatrixTextBox.TabIndex = 5;
             // 
             // inverseMatrixLabel
